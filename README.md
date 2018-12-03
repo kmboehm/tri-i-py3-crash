@@ -10,3 +10,9 @@ Schedule:
 Come at 6:45. If you have IDLE, come at 7.
 20/20/20/20/20!
 TAs from FoC 
+
+Kevin: objects
+Zi: if statements and loops
+Hannah: Functions
+Friederike: Scope
+Eric: I/O
