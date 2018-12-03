@@ -1,0 +1,19 @@
+The Ensembl GTF format is a common one for describing genomic annotations 
+such as genes, exons, transcripts, etc.
+
+It is described in full detail here: 
+https://useast.ensembl.org/info/website/upload/gff.html
+
+But for our purposes, a very brief summary follows:
+
+Each *feature* is described in a single line. Within each
+line, white space (spaces or tabs) separate 9 fields. The first field 
+gives the name of the chromosome. The 3rd field gives the type of the feature
+(e.g. "transcript" or "CDS").
+
+Given the example reduced GTF (drawn from the most recent release 94 of 
+the human genome annotation), find only those lines that have feature type 
+"CDS" and write those to a new file.
+
+Hint: for a string s, s.split() returns a list of strings that were 
+separated by white space in the original string s!
